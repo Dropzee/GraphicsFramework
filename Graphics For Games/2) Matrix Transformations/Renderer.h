@@ -1,6 +1,7 @@
 # pragma once
 
 #include "../../nclgl/OGLRenderer.h"
+#include "../../nclgl/Camera.h"
 
 class Renderer : public OGLRenderer {
 public:
@@ -16,10 +17,14 @@ public:
 	inline void SetRotation(float r) { rotation = r; }
 	inline void SetPosition(Vector3 p) { position = p; }
 
+	virtual void UpdateScene(float msec);
+
 protected:
 	Mesh * triangle;
 
 	float scale;
 	float rotation;
 	Vector3 position;
+
+	Camera* camera;
 };

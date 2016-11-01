@@ -1,6 +1,9 @@
 #include "Renderer.h"
 
 Renderer::Renderer(Window & parent) : OGLRenderer(parent) {
+
+	camera = new Camera();
+
 	triangle = Mesh::GenerateTriangle();
 
 	currentShader = new Shader(SHADERDIR"MatrixVertex.glsl",
@@ -59,4 +62,9 @@ void Renderer::RenderScene() {
 	glUseProgram(0);
 
 	SwapBuffers();
+}
+
+void Renderer::UpdateScene(float msec) {
+	camera->UpdateCamera(msec);
+	viewMatrix = camera->BuildViewMatrix();
 }
