@@ -81,9 +81,9 @@ bool Shader::LoadShaderFile(string from, string & into) {
 }
 
 void Shader::SetDefaultAttributes() {
-	glBindAttribLocation(program, VERTEX_BUFFER, "position");
-	glBindAttribLocation(program, COLOUR_BUFFER, "colour");
-	glBindAttribLocation(program, TEXTURE_BUFFER, "texCoord");
+	glBindAttribLocation(program, VERTEX_BUFFER, " position ");
+	glBindAttribLocation(program, COLOUR_BUFFER, " colour ");
+
 }
 
 bool Shader::LinkProgram() {
