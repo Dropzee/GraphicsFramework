@@ -22,7 +22,8 @@ Mesh ::~Mesh(void) {
 	delete[] colours;
 
 	glDeleteTextures(1, &texture);
-	delete[] textureCoords;
+	delete[] textureCoords;
+
 }
 
 Mesh * Mesh::GenerateTriangle() {
@@ -35,9 +36,10 @@ Mesh * Mesh::GenerateTriangle() {
 	m->vertices[2] = Vector3(-0.5f, -0.5f, 0.0f);
 
 	m->textureCoords = new Vector2[m->numVertices];
-	m->textureCoords[0] = Vector2(0.5f, 0.0f);
-	m->textureCoords[1] = Vector2(1.0f, 1.0f);
-	m->textureCoords[2] = Vector2(0.0f, 1.0f);
+	m->textureCoords[0] = Vector2(0.0f, 0.0f);
+	m->textureCoords[1] = Vector2(0.5f, 1.0f);
+	m->textureCoords[2] = Vector2(0.0f, 1.0f);
+
 
 	m->colours = new Vector4[m->numVertices];
 	m->colours[0] = Vector4(1.0f, 0.0f, 0.0f, 1.0f);
@@ -63,7 +65,8 @@ void Mesh::BufferData() {
 		glBufferData(GL_ARRAY_BUFFER, numVertices * sizeof(Vector2),
 			textureCoords, GL_STATIC_DRAW);
 		glVertexAttribPointer(TEXTURE_BUFFER, 2, GL_FLOAT, GL_FALSE, 0, 0);
-		glEnableVertexAttribArray(TEXTURE_BUFFER);	}
+		glEnableVertexAttribArray(TEXTURE_BUFFER);
+	}
 
 	if (colours) { // Just in case the data has no colour attribute ...
 		glGenBuffers(1, &bufferObject[COLOUR_BUFFER]);
