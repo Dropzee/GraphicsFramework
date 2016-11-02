@@ -15,11 +15,29 @@ d:\documents\csc8502 - advanced graphics for games\graphics code 2015\graphicsfr
 d:\documents\csc8502 - advanced graphics for games\graphics code 2015\graphicsframework\nclgl\debug\quaternion.obj
 d:\documents\csc8502 - advanced graphics for games\graphics code 2015\graphicsframework\nclgl\debug\shader.obj
 d:\documents\csc8502 - advanced graphics for games\graphics code 2015\graphicsframework\nclgl\debug\window.obj
+c:\users\jackc\documents\uni\year 4\csc8502 - advanced graphics for games\graphicsframework\nclgl\debug\nclgl.pdb
+c:\users\jackc\documents\uni\year 4\csc8502 - advanced graphics for games\graphicsframework\nclgl\debug\nclgl.idb
+c:\users\jackc\documents\uni\year 4\csc8502 - advanced graphics for games\graphicsframework\nclgl\debug\camera.obj
+c:\users\jackc\documents\uni\year 4\csc8502 - advanced graphics for games\graphicsframework\nclgl\debug\gametimer.obj
+c:\users\jackc\documents\uni\year 4\csc8502 - advanced graphics for games\graphicsframework\nclgl\debug\keyboard.obj
+c:\users\jackc\documents\uni\year 4\csc8502 - advanced graphics for games\graphicsframework\nclgl\debug\matrix4.obj
+c:\users\jackc\documents\uni\year 4\csc8502 - advanced graphics for games\graphicsframework\nclgl\debug\md5anim.obj
+c:\users\jackc\documents\uni\year 4\csc8502 - advanced graphics for games\graphicsframework\nclgl\debug\md5filedata.obj
+c:\users\jackc\documents\uni\year 4\csc8502 - advanced graphics for games\graphicsframework\nclgl\debug\md5mesh.obj
+c:\users\jackc\documents\uni\year 4\csc8502 - advanced graphics for games\graphicsframework\nclgl\debug\md5node.obj
+c:\users\jackc\documents\uni\year 4\csc8502 - advanced graphics for games\graphicsframework\nclgl\debug\mesh.obj
+c:\users\jackc\documents\uni\year 4\csc8502 - advanced graphics for games\graphicsframework\nclgl\debug\mouse.obj
+c:\users\jackc\documents\uni\year 4\csc8502 - advanced graphics for games\graphicsframework\nclgl\debug\objmesh.obj
+c:\users\jackc\documents\uni\year 4\csc8502 - advanced graphics for games\graphicsframework\nclgl\debug\oglrenderer.obj
+c:\users\jackc\documents\uni\year 4\csc8502 - advanced graphics for games\graphicsframework\nclgl\debug\quaternion.obj
+c:\users\jackc\documents\uni\year 4\csc8502 - advanced graphics for games\graphicsframework\nclgl\debug\shader.obj
+c:\users\jackc\documents\uni\year 4\csc8502 - advanced graphics for games\graphicsframework\nclgl\debug\window.obj
 d:\documents\csc8502 - advanced graphics for games\graphics code 2015\graphicsframework\graphics for games\debug\nclgl.lib
-d:\documents\csc8502 - advanced graphics for games\graphics code 2015\graphicsframework\graphics for games\debug\nclgl.pdb
-d:\documents\csc8502 - advanced graphics for games\graphics code 2015\graphicsframework\nclgl\debug\nclgl.tlog\cl.command.1.tlog
-d:\documents\csc8502 - advanced graphics for games\graphics code 2015\graphicsframework\nclgl\debug\nclgl.tlog\cl.read.1.tlog
-d:\documents\csc8502 - advanced graphics for games\graphics code 2015\graphicsframework\nclgl\debug\nclgl.tlog\cl.write.1.tlog
-d:\documents\csc8502 - advanced graphics for games\graphics code 2015\graphicsframework\nclgl\debug\nclgl.tlog\lib-link.read.1.tlog
-d:\documents\csc8502 - advanced graphics for games\graphics code 2015\graphicsframework\nclgl\debug\nclgl.tlog\lib-link.write.1.tlog
-d:\documents\csc8502 - advanced graphics for games\graphics code 2015\graphicsframework\nclgl\debug\nclgl.tlog\lib.command.1.tlog
+c:\users\jackc\documents\uni\year 4\csc8502 - advanced graphics for games\graphicsframework\graphics for games\debug\nclgl.lib
+c:\users\jackc\documents\uni\year 4\csc8502 - advanced graphics for games\graphicsframework\graphics for games\debug\nclgl.pdb
+c:\users\jackc\documents\uni\year 4\csc8502 - advanced graphics for games\graphicsframework\nclgl\debug\nclgl.tlog\cl.command.1.tlog
+c:\users\jackc\documents\uni\year 4\csc8502 - advanced graphics for games\graphicsframework\nclgl\debug\nclgl.tlog\cl.read.1.tlog
+c:\users\jackc\documents\uni\year 4\csc8502 - advanced graphics for games\graphicsframework\nclgl\debug\nclgl.tlog\cl.write.1.tlog
+c:\users\jackc\documents\uni\year 4\csc8502 - advanced graphics for games\graphicsframework\nclgl\debug\nclgl.tlog\lib-link.read.1.tlog
+c:\users\jackc\documents\uni\year 4\csc8502 - advanced graphics for games\graphicsframework\nclgl\debug\nclgl.tlog\lib-link.write.1.tlog
+c:\users\jackc\documents\uni\year 4\csc8502 - advanced graphics for games\graphicsframework\nclgl\debug\nclgl.tlog\lib.command.1.tlog

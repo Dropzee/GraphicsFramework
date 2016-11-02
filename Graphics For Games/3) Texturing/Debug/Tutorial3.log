@@ -1,11 +1,8 @@
-﻿Build started 02/11/2016 11:42:54.
-     1>Project "D:\Documents\CSC8502 - Advanced Graphics for Games\Graphics Code 2015\GraphicsFramework\Graphics For Games\3) Texturing\Tutorial3.vcxproj" on node 2 (Build target(s)).
-     1>Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Documents\CSC8502 - Advanced Graphics for Games\Graphics Code 2015\GraphicsFramework\Graphics For Games\Debug\Tutorial 03 - Texturing.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"D:\Documents\CSC8502 - Advanced Graphics for Games\Graphics Code 2015\GraphicsFramework\Graphics For Games\Debug\Tutorial 03 - Texturing.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Documents\CSC8502 - Advanced Graphics for Games\Graphics Code 2015\GraphicsFramework\Graphics For Games\Debug\Tutorial 03 - Texturing.lib" /MACHINE:X86 /ignore:4099 Debug\Renderer.obj
-         Debug\tutorial3.obj
-         Tutorial3.vcxproj -> D:\Documents\CSC8502 - Advanced Graphics for Games\Graphics Code 2015\GraphicsFramework\Graphics For Games\Debug\Tutorial 03 - Texturing.exe
-     1>Done Building Project "D:\Documents\CSC8502 - Advanced Graphics for Games\Graphics Code 2015\GraphicsFramework\Graphics For Games\3) Texturing\Tutorial3.vcxproj" (Build target(s)).
-
-Build succeeded.
-
-Time Elapsed 00:00:00.24
+﻿  tutorial3.cpp
+  Renderer.cpp
+  Generating Code...
+Renderer.obj : warning LNK4049: locally defined symbol ___glewGetUniformLocation imported
+Renderer.obj : warning LNK4049: locally defined symbol ___glewUniform1i imported
+Renderer.obj : warning LNK4049: locally defined symbol ___glewUseProgram imported
+  Tutorial3.vcxproj -> C:\Users\jackc\Documents\Uni\Year 4\CSC8502 - Advanced Graphics for Games\GraphicsFramework\Graphics For Games\Debug\Tutorial 03 - Texturing.exe
+  Tutorial3.vcxproj -> C:\Users\jackc\Documents\Uni\Year 4\CSC8502 - Advanced Graphics for Games\GraphicsFramework\Graphics For Games\Debug\Tutorial 03 - Texturing.pdb (Full PDB)
