@@ -1,8 +1,42 @@
-﻿  Camera.cpp
-  Generating Code...
-  Skipping... (no relevant changes detected)
-  Window.cpp
-  Shader.cpp
-  OGLRenderer.cpp
-  Mesh.cpp
-  nclgl.vcxproj -> C:\Users\jackc\Documents\Uni\Year 4\CSC8502 - Advanced Graphics for Games\GraphicsFramework\Graphics For Games\Debug\nclgl.lib
+﻿Build started 02/11/2016 10:03:14.
+     1>Project "D:\Documents\CSC8502 - Advanced Graphics for Games\Graphics Code 2015\GraphicsFramework\nclgl\nclgl.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D GLEW_STATIC /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\nclgl.pdb" /Gd /TP /analyze- /errorReport:prompt Camera.cpp GameTimer.cpp Keyboard.cpp Matrix4.cpp MD5Anim.cpp MD5FileData.cpp MD5Mesh.cpp MD5Node.cpp Mesh.cpp Mouse.cpp OBJMesh.cpp OGLRenderer.cpp Quaternion.cpp Shader.cpp Window.cpp
+         Window.cpp
+         Shader.cpp
+         Quaternion.cpp
+         OGLRenderer.cpp
+         OBJMesh.cpp
+         Mouse.cpp
+         Mesh.cpp
+         MD5Node.cpp
+         MD5Mesh.cpp
+         MD5FileData.cpp
+         MD5Anim.cpp
+         Matrix4.cpp
+         Keyboard.cpp
+         GameTimer.cpp
+         Camera.cpp
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\Lib.exe /OUT:"D:\Documents\CSC8502 - Advanced Graphics for Games\Graphics Code 2015\GraphicsFramework\Graphics For Games\Debug\nclgl.lib" /NOLOGO Debug\Camera.obj
+         Debug\GameTimer.obj
+         Debug\Keyboard.obj
+         Debug\Matrix4.obj
+         Debug\MD5Anim.obj
+         Debug\MD5FileData.obj
+         Debug\MD5Mesh.obj
+         Debug\MD5Node.obj
+         Debug\Mesh.obj
+         Debug\Mouse.obj
+         Debug\OBJMesh.obj
+         Debug\OGLRenderer.obj
+         Debug\Quaternion.obj
+         Debug\Shader.obj
+         Debug\Window.obj
+         nclgl.vcxproj -> D:\Documents\CSC8502 - Advanced Graphics for Games\Graphics Code 2015\GraphicsFramework\Graphics For Games\Debug\nclgl.lib
+     1>Done Building Project "D:\Documents\CSC8502 - Advanced Graphics for Games\Graphics Code 2015\GraphicsFramework\nclgl\nclgl.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.95
