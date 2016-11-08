@@ -8,11 +8,11 @@ in Vertex {
 	vec4 colour;
 } IN;
 
-out vec4 gl_FragColor;
+out vec4 fragColor;
 
 void main ( void ) {
-	gl_FragColor = IN.colour;
+	fragColor = IN.colour;
 	if( useTexture > 0) {
-		gl_FragColor *= texture ( diffuseTex , IN.texCoord );
+		fragColor *= texture ( diffuseTex , IN.texCoord );
 	}
 }
