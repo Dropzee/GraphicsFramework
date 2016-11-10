@@ -70,7 +70,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\8) Index Buffers\Renderer.cpp" />
     <ClCompile Include="Tutorial9.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\8) Index Buffers\Renderer.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

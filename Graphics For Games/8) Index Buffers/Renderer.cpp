@@ -12,7 +12,7 @@ Renderer::Renderer(Window & parent) : OGLRenderer(parent) {
 	}
 
 	heightMap->SetTexture(SOIL_load_OGL_texture(
-		TEXTUREDIR"Barren Reds.JPG",
+		TEXTUREDIR"lavaland.tga",
 		SOIL_LOAD_AUTO, SOIL_CREATE_NEW_ID, SOIL_FLAG_MIPMAPS));
 
 	if (!heightMap->GetTexture()) {
