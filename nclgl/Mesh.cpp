@@ -15,7 +15,8 @@ Mesh::Mesh(void) {
 	textureCoords = NULL;
 
 	indices = NULL;
-	numIndices = 0;
+	numIndices = 0;
+
 }
 
 Mesh ::~Mesh(void) {

@@ -31,5 +31,6 @@ protected:
 	Vector2 * textureCoords;
 
 	GLuint numIndices;
-	unsigned int * indices;
+	unsigned int * indices;
+
 };

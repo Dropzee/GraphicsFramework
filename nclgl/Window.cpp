@@ -131,7 +131,7 @@ Window::~Window(void)
 	delete keyboard;keyboard = NULL;
 	delete mouse;	mouse = NULL;
 
-	FreeConsole();		//Destroy the console window
+	//FreeConsole();		//Destroy the console window
 }
 
 HWND Window::GetHandle() {
