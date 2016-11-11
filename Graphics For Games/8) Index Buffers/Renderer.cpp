@@ -4,6 +4,8 @@ Renderer::Renderer(Window & parent) : OGLRenderer(parent) {
 	heightMap = new HeightMap(TEXTUREDIR"terrain.raw");
 	camera = new Camera();
 
+	camera->SetYaw(-125.0f);
+
 	currentShader = new Shader(SHADERDIR"TexturedVertex.glsl",
 		SHADERDIR"TexturedFragment.glsl");
 

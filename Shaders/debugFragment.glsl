@@ -6,8 +6,8 @@ in Vertex	{
 	vec4 colour;
 } IN;
 
-out vec4 gl_FragColor;
+out vec4 fragColor;
 
 void main(void)	{
-	gl_FragColor = IN.colour;
+	fragColor = IN.colour;
 }
