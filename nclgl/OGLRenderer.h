@@ -30,7 +30,7 @@ _-_-_-_-_-_-_-""  ""
 #include "Quaternion.h"
 #include "Matrix4.h"
 #include "Window.h"
-//#include "light.h"
+#include "Light.h"
 
 #include "Shader.h"		//Students make this file...
 #include "Mesh.h"		//And this one...
@@ -121,6 +121,8 @@ public:
 	}
 
 protected:
+	void SetShaderLight(const Light &l);
+
 	virtual void	Resize(int x, int y);	
 	void			UpdateShaderMatrices();
 	void			SetCurrentShader(Shader*s);
