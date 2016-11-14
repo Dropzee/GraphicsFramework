@@ -1,10 +1,6 @@
-﻿Build started 14/11/2016 11:46:36.
+﻿Build started 14/11/2016 12:37:23.
      1>Project "D:\Documents\CSC8502 - Advanced Graphics for Games\Graphics Code 2015\GraphicsFramework\Graphics For Games\11) Per Fragment Lighting A\Tutorial11.vcxproj" on node 2 (Build target(s)).
-     1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt Renderer.cpp
-         Renderer.cpp
-     1>d:\documents\csc8502 - advanced graphics for games\graphics code 2015\graphicsframework\nclgl\camera.h(61): warning C4305: 'initializing': truncation from 'double' to 'const float'
-       Link:
+     1>Link:
          C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Documents\CSC8502 - Advanced Graphics for Games\Graphics Code 2015\GraphicsFramework\Graphics For Games\Debug\Tutorial 11 - Real-time Lighting A.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"D:\Documents\CSC8502 - Advanced Graphics for Games\Graphics Code 2015\GraphicsFramework\Graphics For Games\Debug\Tutorial 11 - Real-time Lighting A.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Documents\CSC8502 - Advanced Graphics for Games\Graphics Code 2015\GraphicsFramework\Graphics For Games\Debug\Tutorial 11 - Real-time Lighting A.lib" /MACHINE:X86 Debug\Renderer.obj
          Debug\Tutorial11.obj
      1>Renderer.obj : warning LNK4049: locally defined symbol ___glewGetUniformLocation imported
@@ -17,4 +13,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:01.12
+Time Elapsed 00:00:00.40
