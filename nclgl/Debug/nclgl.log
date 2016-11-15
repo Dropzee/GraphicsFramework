@@ -1,5 +1,6 @@
-﻿Build started 14/11/2016 12:37:08.
+﻿Build started 15/11/2016 11:05:24.
      1>Project "D:\Documents\CSC8502 - Advanced Graphics for Games\Graphics Code 2015\GraphicsFramework\nclgl\nclgl.vcxproj" on node 2 (Rebuild target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppClean.targets(76,5): warning : The process cannot access the file 'd:\documents\csc8502 - advanced graphics for games\graphics code 2015\graphicsframework\nclgl\debug\mesh.obj' because it is being used by another process.
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D GLEW_STATIC /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\nclgl.pdb" /Gd /TP /analyze- /errorReport:prompt Camera.cpp Frustum.cpp GameTimer.cpp HeightMap.cpp Keyboard.cpp Matrix4.cpp MD5Anim.cpp MD5FileData.cpp MD5Mesh.cpp MD5Node.cpp Mesh.cpp Mouse.cpp OBJMesh.cpp OGLRenderer.cpp Plane.cpp Quaternion.cpp SceneNode.cpp Shader.cpp Window.cpp
          Window.cpp
@@ -48,4 +49,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:09.28
+Time Elapsed 00:00:10.44
