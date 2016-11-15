@@ -11,13 +11,14 @@ Renderer::Renderer(Window & parent) : OGLRenderer(parent) {
 	hellData->AddAnim(MESHDIR"idle2.md5anim");
 	hellNode->PlayAnim(MESHDIR"idle2.md5anim");
 
-	sceneShader = new Shader(" shadowscenevert . glsl ",
-		" shadowscenefrag . glsl ");
-	shadowShader = new Shader(" shadowVert . glsl ", " shadowFrag . glsl ");
+	sceneShader = new Shader(SHADERDIR"shadowSceneVertex.glsl",
+		SHADERDIR"shadowSceneFragment.glsl");
+	shadowShader = new Shader(SHADERDIR"shadowVertex.glsl", SHADERDIR"shadowFragment.glsl");
 
 	if (!sceneShader->LinkProgram() || !shadowShader->LinkProgram()) {
 		return;
 	}
+
 	glGenTextures(1, &shadowTex);
 	glBindTexture(GL_TEXTURE_2D, shadowTex);
 	glTexParameterf(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_CLAMP_TO_EDGE);
@@ -39,9 +40,9 @@ Renderer::Renderer(Window & parent) : OGLRenderer(parent) {
 	glDrawBuffer(GL_NONE);
 	glBindFramebuffer(GL_FRAMEBUFFER, 0);
 	floor = Mesh::GenerateQuad();
-	floor->SetTexture(SOIL_load_OGL_texture("../ Textures / brick .tga "
+	floor->SetTexture(SOIL_load_OGL_texture(TEXTUREDIR"brick.tga"
 		, SOIL_LOAD_AUTO, SOIL_CREATE_NEW_ID, SOIL_FLAG_MIPMAPS));
-	floor->SetBumpMap(SOIL_load_OGL_texture("../ Textures / brickDOT3 .tga "
+	floor->SetBumpMap(SOIL_load_OGL_texture(TEXTUREDIR"brickDOT3.tga"
 		, SOIL_LOAD_AUTO, SOIL_CREATE_NEW_ID, SOIL_FLAG_MIPMAPS));
 
 	glEnable(GL_DEPTH_TEST);
@@ -59,7 +60,7 @@ Renderer ::~Renderer(void) {
 	delete light;
 	delete hellData;
 	delete hellNode;
-	deletefloor;
+	delete floor;
 
 	delete sceneShader;
 	delete shadowShader;
@@ -110,14 +111,14 @@ void Renderer::DrawShadowScene() {
 void Renderer::DrawCombinedScene() {
 	SetCurrentShader(sceneShader);
 	glUniform1i(glGetUniformLocation(currentShader->GetProgram(),
-		" diffuseTex "), 0);
+		"diffuseTex"), 0);
 	glUniform1i(glGetUniformLocation(currentShader->GetProgram(),
-		" bumpTex "), 1);
+		"bumpTex"), 1);
 	glUniform1i(glGetUniformLocation(currentShader->GetProgram(),
-		" shadowTex "), 2);
+		"shadowTex"), 2);
 
 	glUniform3fv(glGetUniformLocation(currentShader->GetProgram(),
-		" cameraPos "), 1, (float *)& camera->GetPosition());
+		"cameraPos"), 1, (float *)& camera->GetPosition());
 
 	SetShaderLight(*light);
 
@@ -139,10 +140,10 @@ void Renderer::DrawMesh() {
 	Matrix4 tempMatrix = textureMatrix * modelMatrix;
 
 	glUniformMatrix4fv(glGetUniformLocation(currentShader->GetProgram()
-		, " textureMatrix "), 1,false, *& tempMatrix.values);
+		, "textureMatrix"), 1,false, *& tempMatrix.values);
 
 	glUniformMatrix4fv(glGetUniformLocation(currentShader->GetProgram()
-		, " modelMatrix "), 1,false, *& modelMatrix.values);
+		, "modelMatrix"), 1,false, *& modelMatrix.values);
 
 	hellNode->Draw(*this);
 }
@@ -153,9 +154,9 @@ void Renderer::DrawFloor() {
 	Matrix4 tempMatrix = textureMatrix * modelMatrix;
 
 	glUniformMatrix4fv(glGetUniformLocation(currentShader->GetProgram()
-		, " textureMatrix "), 1,false, *& tempMatrix.values);
+		, "textureMatrix"), 1,false, *& tempMatrix.values);
 	glUniformMatrix4fv(glGetUniformLocation(currentShader->GetProgram()
-		, " modelMatrix "), 1,false, *& modelMatrix.values);
+		, "modelMatrix"), 1,false, *& modelMatrix.values);
 
 	floor->Draw();
 }

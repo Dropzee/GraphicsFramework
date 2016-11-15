@@ -3,6 +3,7 @@
 #include "../../nclgl/OGLRenderer.h"
 #include "../../nclgl/Camera.h"
 #include "../../nclgl/MD5Mesh.h"
+#include "../../nclgl/MD5Node.h"
 
 #define SHADOWSIZE 2048
 

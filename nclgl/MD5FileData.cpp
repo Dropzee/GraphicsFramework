@@ -507,8 +507,8 @@ void MD5FileData::CreateMeshes()	{
 
 #ifdef MD5_USE_TANGENTS_BUMPMAPS
 		//Create space for tangents, and assign the bump texture
-//		target->bumpTexture	  = subMesh.bumpIndex;	
-//		target->tangents	  = new Vector3[subMesh.numverts];
+		target->bumpTexture	  = subMesh.bumpIndex;	
+		target->tangents	  = new Vector3[subMesh.numverts];
 #endif
 
 		target->numIndices    = subMesh.numtris*3; //Each tri has 3 points....

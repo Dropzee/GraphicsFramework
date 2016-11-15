@@ -1,29 +1,8 @@
-﻿Build started 15/11/2016 11:05:24.
-     1>Project "D:\Documents\CSC8502 - Advanced Graphics for Games\Graphics Code 2015\GraphicsFramework\nclgl\nclgl.vcxproj" on node 2 (Rebuild target(s)).
-     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppClean.targets(76,5): warning : The process cannot access the file 'd:\documents\csc8502 - advanced graphics for games\graphics code 2015\graphicsframework\nclgl\debug\mesh.obj' because it is being used by another process.
+﻿Build started 15/11/2016 13:08:14.
+     1>Project "D:\Documents\CSC8502 - Advanced Graphics for Games\Graphics Code 2015\GraphicsFramework\nclgl\nclgl.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D GLEW_STATIC /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\nclgl.pdb" /Gd /TP /analyze- /errorReport:prompt Camera.cpp Frustum.cpp GameTimer.cpp HeightMap.cpp Keyboard.cpp Matrix4.cpp MD5Anim.cpp MD5FileData.cpp MD5Mesh.cpp MD5Node.cpp Mesh.cpp Mouse.cpp OBJMesh.cpp OGLRenderer.cpp Plane.cpp Quaternion.cpp SceneNode.cpp Shader.cpp Window.cpp
-         Window.cpp
-         Shader.cpp
-         SceneNode.cpp
-         Quaternion.cpp
-         Plane.cpp
-         OGLRenderer.cpp
-         OBJMesh.cpp
-         Mouse.cpp
-         Mesh.cpp
-         MD5Node.cpp
-         MD5Mesh.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D GLEW_STATIC /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\nclgl.pdb" /Gd /TP /analyze- /errorReport:prompt MD5FileData.cpp
          MD5FileData.cpp
-         MD5Anim.cpp
-         Matrix4.cpp
-         Keyboard.cpp
-         HeightMap.cpp
-         GameTimer.cpp
-         Frustum.cpp
-         Camera.cpp
-     1>d:\documents\csc8502 - advanced graphics for games\graphics code 2015\graphicsframework\nclgl\camera.h(61): warning C4305: 'initializing': truncation from 'double' to 'const float'
-         Generating Code...
        Lib:
          C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\Lib.exe /OUT:"D:\Documents\CSC8502 - Advanced Graphics for Games\Graphics Code 2015\GraphicsFramework\Graphics For Games\Debug\nclgl.lib" /NOLOGO Debug\Camera.obj
          Debug\Frustum.obj
@@ -45,8 +24,8 @@
          Debug\Shader.obj
          Debug\Window.obj
          nclgl.vcxproj -> D:\Documents\CSC8502 - Advanced Graphics for Games\Graphics Code 2015\GraphicsFramework\Graphics For Games\Debug\nclgl.lib
-     1>Done Building Project "D:\Documents\CSC8502 - Advanced Graphics for Games\Graphics Code 2015\GraphicsFramework\nclgl\nclgl.vcxproj" (Rebuild target(s)).
+     1>Done Building Project "D:\Documents\CSC8502 - Advanced Graphics for Games\Graphics Code 2015\GraphicsFramework\nclgl\nclgl.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:10.44
+Time Elapsed 00:00:01.50
