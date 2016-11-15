@@ -24,7 +24,7 @@ Renderer::Renderer(Window & parent) : OGLRenderer(parent) {
 		!skyboxShader->LinkProgram()) {
 		return;
 	}
-	quad->SetTexture(SOIL_load_OGL_texture(TEXTUREDIR"chessboard.TGA",
+	quad->SetTexture(SOIL_load_OGL_texture(TEXTUREDIR"brick.tga",
 		SOIL_LOAD_AUTO, SOIL_CREATE_NEW_ID, SOIL_FLAG_MIPMAPS));
 
 	heightMap->SetTexture(SOIL_load_OGL_texture(
